@@ -1,0 +1,129 @@
+
+body {
+  background-color: rgb(31, 30, 30);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 620px;
+}
+
+.container {
+  background-color: white;
+  width: 43%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.titl {
+  padding: 5px 40px 1px;
+}
+
+.titl h1 {
+  width: 25%;
+  font-size: 30px;
+  border-bottom: 6px solid lightgreen;
+}
+
+form {
+  margin: 0 auto;
+  padding: 15px 40px 30px;
+}
+
+.inpbox {
+  padding: 0 2px 20px;
+  margin: 2px auto;
+  width: 100%;
+  position: relative;
+}
+
+.inpbox input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1.7px solid rgb(31, 30, 30);
+  outline: none;
+  background-color: rgb(243, 243, 243);
+  color: black;
+  border-radius: 10px;
+}
+
+.inpbox i {
+  visibility: hidden;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.inpbox small {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  color: red;
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+.inpbox.error {
+  margin-bottom: 10px;
+}
+
+.inpbox.success input {
+  border: 2px solid rgb(115, 241, 115);
+  border-top: 0;
+}
+
+.inpbox.error input {
+  border: 2px solid rgb(245, 95, 95);
+  border-top: 0;
+  margin-bottom: 0;
+}
+
+.inpbox.success i.fa-check-circle {
+  color: rgb(115, 241, 115);
+  visibility: visible;
+}
+
+.inpbox.error i.fa-exclamation-circle {
+  color: rgb(245, 95, 95);
+  visibility: visible;
+}
+
+.inpbox.error small {
+  visibility: visible;
+}
+
+button {
+  display: block;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 10px;
+}
+
+button:hover {
+  color: rgb(31, 30, 30);
+  background-color: rgb(115, 241, 115);
+  border: 1px solid rgb(31, 30, 30);
+  width: 110%;
+  font-weight: 600;
+  padding: 10px 13px;
+  margin-left: -5%;
+}
+
+::placeholder {
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

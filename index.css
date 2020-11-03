@@ -1,0 +1,263 @@
+/*------------------Tag Seletors------------------*/
+
+.bod {
+  text-align: center;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(31, 30, 30);
+}
+
+/*------------------Class Seletors------------------*/
+
+.categories {
+  background-color: white;
+
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+
+.centerText {
+  text-align: center;
+  font-size: 25px;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  color: black;
+ 
+}
+
+.mainbox {
+  width: 90%;
+  height: 250px;
+  margin: 90px auto 0;
+  background-color: white;
+  display: table;
+}
+
+.vegetable {
+  color: white;
+  background-image: url(./assets/vege.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table-cell;
+  width: 340px;
+}
+
+.vegetable:hover {
+  background-size: 120%;
+  cursor: pointer;
+}
+
+.fruits {
+  background-image: url(./assets/fruits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  position: relative;
+  top: 45px;
+  width: 100%;
+}
+
+.fruits:hover {
+  background-size: 120%;
+  cursor: pointer;
+}
+
+.btw {
+  height: 100%;
+  background-color: rgba(230, 228, 228, 0.3);
+  color: black;
+}
+
+.btw:hover {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.sub {
+  color: white;
+  background-color: black;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+}
+
+.sscat {
+  width: 100%;
+  display: table-row;
+}
+
+.categoryName {
+  text-decoration: none;
+  color: black;
+}
+
+.categoryName:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.sscatItem {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  display: table-cell;
+}
+
+.sscatItem:hover {
+  background-size: 120%;
+  cursor: pointer;
+}
+
+/*------------------Header------------------*/
+
+* {
+  margin: 0;
+}
+
+/*--------------------------Class--------------------------------------------*/
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, serif;
+  background-color: rgb(31, 30, 30);
+  border-bottom: rgb(124, 121, 121) solid 0.1px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px;
+  /* margin-right: auto; */
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.logo span {
+  font-weight: 700;
+}
+
+.mainList {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.mainList li {
+  display: inline-block;
+  padding: 7px;
+  transition: all 0.3s ease 0s;
+  margin-right: 30px;
+}
+
+.mainList li a {
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.mainList li a:hover {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-weight: 600;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, serif;
+  background-color: rgb(31, 30, 30);
+  border-bottom: rgb(124, 121, 121) solid 0.1px;
+}
+
+.subList {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+.subList li {
+  display: inline-block;
+  padding: 7px;
+  transition: all 0.3s ease 0s;
+  margin-right: 50px;
+}
+
+#cs:hover {
+  width: 160px;
+}
+
+.optn {
+  outline: none;
+  padding: 7px 10px;
+  background-color: rgba(145, 245, 145, 1);
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+  color: black;
+}
+
+.optn:hover {
+  background-color: rgba(145, 245, 145, 0.8);
+  text-decoration: none;
+  color: black;
+}
+
+.search-box {
+  width: 40%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: white;
+}
+
+.search-box input {
+  outline: none;
+  position: relative;
+  left: 35px;
+  display: inline;
+  width: 80%;
+  margin-right: 0;
+  padding-right: 0;
+  border: none;
+  height: 29px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.search-box button {
+  background-color: rgb(145, 245, 145);
+  outline: none;
+  border: none;
+  position: relative;
+  left: 30px;
+  right: 0px;
+  width: 15%;
+  height: 31px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,158 @@
+/*              Sass Template           */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+JP:wght@500&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.gline {
+  width: 25%;
+  border-bottom: 2px solid #a8f3a8;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 0%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-75 {
+  width: 79%;
+}
+
+.border-all {
+  border: 1px solid #ebebeb;
+}
+
+.border-top-primary {
+  border-top: 1px solid #ebebeb;
+}
+
+.btn-primary:hover {
+  background-color: #a8f3a8;
+  color: black;
+}
+
+.cl1 {
+  border-top: 1px solid #ffffff;
+}
+
+.lefalgn {
+  margin-left: 40px;
+}
+
+.des {
+  height: 50%;
+  width: 100%;
+}
+
+.des2 {
+  width: 100% !important;
+}
+
+.background-primary {
+  background-color: #000000;
+}
+
+.background-secondary {
+  background-color: #ffffff;
+}
+
+.background-third {
+  background-color: #a8f3a8;
+}
+
+.background-prod {
+  background-color: #ebebeb;
+}
+
+.background-body {
+  background-color: #1f1e1e;
+}
+
+.color-primary {
+  color: #000000;
+}
+
+.color-secondary {
+  color: #ffffff;
+}
+
+.color-third {
+  color: #a8f3a8;
+}
+
+.color-fourth {
+  color: #ebebeb;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-noto {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.btn-custom {
+  background-color: #1f1e1e !important;
+  color: #ffffff !important;
+  font: 14px;
+  border: 1px solid black;
+}
+
+.btn-custom:hover {
+  background-color: #a8f3a8 !important;
+  color: #000000 !important;
+  font-weight: 500;
+  border: 1px solid black;
+}
+
+.btn-qty {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/*------------------Tag Seletors------------------*/
+
+body {
+  text-align: center;
+  font-family: "Inter", "Noto Sans JP", sans-serif;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(31, 30, 30);
+}
+
+/*------------------Class Seletors------------------*/
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
